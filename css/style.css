@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/*font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+.container{
+	width: 1140px;
+	margin: auto;
+
+}
+
+/*Header section css starts here*/
+
+header{
+	width: 100%;
+	padding: 50px 0;
+}
+.nav_bar{
+	width: 100%;
+	float: left;
+	display:flow-root;
+}
+.logo{
+	width: 25%;
+	float: left;
+}
+.menu{
+	width: 75%;
+	float: right;
+	text-align: right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+	
+}
+a{
+	text-decoration: none;
+
+}
+.menu ul li a{
+	font-family: 'Playfair Display', serif;
+	color: #818181;
+	text-transform: uppercase;
+	font-weight: 400;
+
+	}
+	.menu ul li a:hover{
+		color: #282923;
+	}
+
+
+/*Header section css ends here*/
+
+/* First post css starts here */
+
+.first_post{
+	width: 100%;
+	display:flow-root;
+}
+
+.text1{
+padding: 70px;
+}
+.text1 h5{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #B4AD9E;
+	padding-bottom: 20px;
+}
+ 
+.text1 h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #626262;
+	margin: 20px 0;
+	
+}
+.text1 p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #A1A1A1;
+	margin-bottom: 20px;
+}
+.text1 span{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #B4AD9E;
+	padding-bottom: 20px;
+}
+
+/* First post css ends here */
+
+/*Second post css starts here */
+.details{
+	width: 100%;
+	float: left;
+	margin: 20px 0;
+}
+.second_post{
+	width: 100%;
+	display:flow-root;
+}
+.left_post{
+	width: 48%;
+	float: left;
+
+}
+.left_post img{
+	width: 100%;
+}
+.left_post h5{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #B4AD9E;
+	padding: 30px 0 10px 2px;
+
+}
+.left_post h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #626262;
+	margin-bottom:20px;
+	
+
+}
+.left_post p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #626262;
+	line-height: 26px;
+	margin-bottom:50px;
+	padding-bottom: 30px;
+	
+}
+.right_post{
+	width: 48%;
+	float: left;
+
+}
+.right_post img{
+	width: 100%;
+	padding-left: 25px;
+}
+.right_post h5{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #B4AD9E;
+	padding: 30px 0 10px 26px;
+}
+
+
+.right_post h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	padding-left: 25px;
+	color: #626262;
+	margin-bottom:20px;
+
+}
+.right_post p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #626262;
+	line-height: 26px;
+	padding-left: 25px;
+	margin-bottom:50px;	
+	padding-bottom: 30px;
+}
+
+/* Second post css ends here*/
+
+
+/*Sign up section css starts here*/
+
+.signup{
+	width: 100%;
+	background-color: #F0F0F0;
+	height: 300px;
+	display:flow-root;
+}
+
+.form{
+	text-align: center;
+	padding: 100px 0; 
+}
+
+.form h1{ 
+	font-family: 'Playfair Display', serif;
+	color: #3E3E3E;
+	margin-bottom: 50px;
+	}
+.form input{
+	width: 32%;
+    padding: 15px 0;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+/*Sign up section ends here*/
+
+.last_post{
+	width: 100%;
+	margin:80px 0;
+}
+.load{
+	width: 100%;
+	margin:80px 0 100px 0;
+}
+.btn{
+	text-align: center;
+}
+.btn input{
+	padding: 15px 30px;
+	font-size:20px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: #626262;
+}
